@@ -24,7 +24,7 @@ export default class Header extends Component {
             <Navbar.Brand href="/">
               <img
                 src={logo}
-                heigth="30"
+                height="30"
                 width="30"
                 className="d-inline-block align-top"
                 alt="Logo"
@@ -33,7 +33,7 @@ export default class Header extends Component {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav classname="mr-auto">
+              <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/about">About us</Nav.Link>
                 <Nav.Link href="/contacts">Contacts</Nav.Link>
@@ -43,7 +43,7 @@ export default class Header extends Component {
                 <FormControl
                   type="text"
                   placeholder="Search"
-                  className="mr-sm-1"
+                  className="mr-sm-2"
                 />
                 <Button variant="outline-info">Search</Button>
               </Form>
