@@ -7,7 +7,6 @@ import {
   Form,
   Button,
 } from "react-bootstrap";
-import logo from "./logo192.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "../Pages/Home";
@@ -18,18 +17,15 @@ export default class Header extends Component {
   render() {
     return (
       <>
-        <Navbar collapseOnSelect expand="md" bg="light" variant="light">
+        <Navbar
+          fixed="top"
+          collapseOnSelect
+          expand="md"
+          bg="light"
+          variant="light"
+        >
           <Container>
-            <Navbar.Brand href="/">
-              <img
-                src={logo}
-                height="30"
-                width="30"
-                className="d-inline-block align-top"
-                alt="Logo"
-              />
-              Company Light
-            </Navbar.Brand>
+            <Navbar.Brand href="/">Company Light</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
