@@ -8,14 +8,14 @@ export class CarouselBox extends Component {
     return (
       <Carousel>
         <Carousel.Item>
-          <img height={660} className="d-block w-100" src={first} alt="First" />
+          <img height={600} className="d-block w-100" src={first} alt="First" />
           <Carousel.Caption>
             <h3>First image</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            height={660}
+            height={600}
             className="d-block w-100"
             src={second}
             alt="Second"
