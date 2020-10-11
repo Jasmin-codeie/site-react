@@ -17,13 +17,7 @@ export default class Header extends Component {
   render() {
     return (
       <>
-        <Navbar
-          fixed="top"
-          collapseOnSelect
-          expand="md"
-          bg="light"
-          variant="light"
-        >
+        <Navbar collapseOnSelect expand="md" bg="light" variant="light">
           <Container>
             <Navbar.Brand href="/">Company Light</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
