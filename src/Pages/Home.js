@@ -33,7 +33,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
               />
               <Card.Body>
                 <Card.Title>Developers</Card.Title>
@@ -53,7 +53,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                src="https://images.pexels.com/photos/1546105/pexels-photo-1546105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
               />
               <Card.Body>
                 <Card.Title>Developers</Card.Title>
