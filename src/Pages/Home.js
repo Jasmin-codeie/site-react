@@ -9,7 +9,7 @@ export default class Home extends Component {
         <CarouselBox />
         <Container>
           <h3 className="text-center m-4">Our team</h3>
-          <CardDeck>
+          <CardDeck className="mb-10">
             <Card>
               <Card.Img
                 variant="top"
